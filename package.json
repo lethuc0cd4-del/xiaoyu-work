@@ -1,0 +1,11 @@
+{
+  "name": "wuzhou-intelligent-healthcare-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "长沙鹜洲智能医护科技有限公司高端官网静态页面",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "check": "python3 -m py_compile tools/html_check.py && python3 tools/html_check.py"
+  },
+  "devDependencies": {}
+}
